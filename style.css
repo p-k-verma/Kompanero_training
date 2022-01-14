@@ -1,0 +1,339 @@
+.header .logo {
+    width: 123px;
+    height: 79px;
+}
+.header {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+.category {
+    display: flex;
+}
+.category ul li {
+    padding-right: 20px;
+}
+.category ul li a {
+    text-decoration: none;
+    color: #3E3E3E;
+    font-weight: 400;
+    font-size: 15px;
+    font-family: SF UI Display,medium;
+}
+.category ul li a:hover {
+    color: black;
+}
+input[type=checkbox], input[type=radio] {
+    accent-color: #000000;
+}
+.navbar {
+    display: flex;
+    list-style-type: none;
+}
+.user-interface {
+    display: flex;
+    align-items: center;
+}
+.user-interface .account {
+    padding: 0px 20px;
+    text-align: center;
+}
+.user-interface .account a {
+    text-decoration: none;
+    color: black;
+}
+.user-interface .account a i,.user-interface .bags a i {
+    font-size: 25px;
+}
+.user-interface .bags {
+    padding: 0px 20px;
+    position: relative;
+    text-align: center;
+}
+.user-interface .bags a {
+    text-decoration: none;
+    color: black;
+}
+#button {
+   background-color: #853A00;
+   width: 20px;
+   height: 20px;
+   border-radius: 50%;
+   position: absolute;
+   top: 15px;
+   left: 30px;
+   font-size: 13px;
+   color: white;
+}
+
+.banner {
+    position: relative
+}
+.banner .banner_detail {
+    position: absolute;
+    top: 60px;
+    left: 500px;
+    color: #FFFFFF;
+    opacity: 80%;
+    text-align: center;
+    font-family: Playfair Display, Regular;
+}
+
+.banner_image {
+    width: 1349px;
+    height: 200px;
+}
+.filters_heading h4 {
+    font-size: 15px;
+    font-family: SF UI Display,medium;
+}
+.body_value h4 {
+    font-size: 15px;
+    position: relative;
+}
+.body_value h4 i {
+    position: absolute;
+    top: 0px;
+    padding-left: 4px;
+}
+.filter_main {
+    margin: 20px 20px;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid grey;
+}
+.main_body_1 {
+    width: 20%;
+}
+.main_body_2 {
+    width: 80%;
+    padding: 10px 50px;
+    font-family: SF UI Display,Regular;
+    
+}
+.main_body_2 h3 {
+    font-family: Playfair Display,Regular;
+}
+.main_body {
+    margin: 20px 20px;
+    display: flex;
+}
+.filters .filters_label {
+    padding-left: 5px;
+    font-family: SF UI Display,Regular;
+}
+
+.filters .filter_name {
+    padding: 10px;
+    border-bottom: 1px solid grey;
+}
+
+.color_box {
+    padding: 20px 0px;
+    border-bottom: 1px solid black;
+}
+.color_box .color {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: brown;
+    position: absolute;
+    left: 23px;
+}
+.color_checkbox {
+    position: relative;
+    padding: 10px 0px;
+}
+.color_box .color_checkbox {
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+}
+.color_checkbox .checkbox_label {
+    position: absolute;
+    left: 45px;
+    font-family: SF UI Display,Regular;
+}
+.pricebox_label {
+    left: 25px;
+    position: absolute;
+    font-family: SF UI Display,Regular;
+}
+label {
+    margin: 0px;
+}
+input.largerCheckbox {
+    width: 15px;
+    height: 15px;
+    padding: 0px 5px;
+}
+.card-box {
+    width: 24%;
+    padding: 1%;
+}
+.card-box .card-box-image {
+    width: 200px;
+}
+.card-box .card-box-desc {
+    font-size: small;
+    margin: 0px;
+    padding: 5px 0px;
+}
+.card-box .card-box-price {
+    font-size: small;
+    font-weight: 600;
+    margin: 0px;
+}
+
+
+
+.page-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.page-button ul {
+    display: flex;
+    margin: 0px;
+    align-items: baseline;
+}
+.page-button ul li {
+    list-style-type: none;
+    padding: 0px 10px;
+}
+.page-button ul li a {
+    text-decoration: none;
+    color: black;
+}
+.page-button .page-click-button {
+    background-color: white;
+    color: grey;
+    border-radius: 20px;
+    width: 80px;
+}
+
+
+
+/* footer section */
+.main_footer {
+    padding: 30px 60px;
+    display: flex;
+    color: white;
+    background-color: black;
+    font-family: SF UI Display,Regular;
+}
+
+.main_footer .footer_1 {
+    width: 30%;
+}
+.main_footer .footer_1 .timings {
+    padding-left: 45px;
+}
+.main_footer .footer_1 ul {
+    padding: 0px;
+}
+.main_footer .footer_1 ul li {
+    list-style-type: none;
+    font-size: small;
+}
+.main_footer .footer_1 .footer_heading,.main_footer .footer_2 .footer_heading,.main_footer .footer_3 .footer_heading  {
+    font-size: 18px;
+    font-weight: 600;
+}
+.main_footer .footer_1 p {
+    font-size: small;
+}
+
+
+
+.main_footer .footer_2 {
+    width: 20%;
+}
+.main_footer .footer_2 ul {
+    padding: 0px;
+}
+.main_footer .footer_2 ul li {
+    list-style-type: none;
+    font-size: small;
+    padding: 5px 0px;
+}
+.main_footer .footer_2 ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+
+
+
+.main_footer .footer_3 ul {
+    padding: 0px;
+}
+.main_footer .footer_3 ul li {
+    list-style-type: none;
+    font-size: small;
+    padding: 5px 0px;
+}
+.main_footer .footer_3 ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+
+.main_footer .footer_3 {
+    width: 20%;
+}
+
+
+
+
+.main_footer .footer_4 ul {
+    padding: 0px;
+    display: flex;
+}
+.main_footer .footer_4 ul li {
+    list-style-type: none;
+    font-size: 20px;
+    padding: 5px 0px;
+}
+.main_footer .footer_4 ul li i {
+    padding: 0px 20px;
+}
+.main_footer .footer_4 {
+    width: 30%;
+}
+.main_footer .footer_4 .footer_heading {
+    font-size: 15px;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+}
+
+input.subscribe {
+    background-color: black;
+    border: 1px solid white;
+    width: 350px;
+    height: 40px;
+}
+input.subscribe:focus-visible {
+   border-radius: 0px;
+   outline: none;
+}
+.footer_4 .subscribe_detail {
+    position: relative;
+}
+input.subscribe_button {
+    background-color: black;
+    color: white;
+    border: none;
+    position: absolute;
+    right: 21px;
+    bottom: 8px;
+}
+.end_bottom {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 60px;
+}
+.end_bottom .kartmax_logo {
+    width: 150px;
+    height: 35px;
+}
