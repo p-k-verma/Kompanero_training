@@ -312,6 +312,7 @@ input.subscribe {
     border: 1px solid white;
     width: 350px;
     height: 40px;
+    color: white;
 }
 input.subscribe:focus-visible {
    border-radius: 0px;
